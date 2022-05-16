@@ -1,2 +1,2 @@
 # readmeGenerator
-Generate fully developed REAME files by answering a series of questions 
+Generate fully developed README files by answering a series of questions 
