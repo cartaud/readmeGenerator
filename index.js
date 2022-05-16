@@ -17,15 +17,32 @@ const questions = [
 
 //a function to write README file
 function writeToFile(data) {
-    fs.writeFile('./utils/README.md', 
-`#${data.project} <hr>
-${data.username}
-${data.email}
-${data.licenses}
+    fs.writeFile('README.md', 
+`## ${data.project} 
+Need get the data returned from generateMarkdown file and put it here
+### Description
+${data.description}
+### Table of Contents
+- [Installation](https://github.com/cartaud/readmeGenerator#-Installation-)
+- [Usage](https://github.com/cartaud/readmeGenerator#-Usage-)
+- [License](https://github.com/cartaud/readmeGenerator#-License-)
+- [Contributing](https://github.com/cartaud/readmeGenerator#-Contributing-)
+- [Tests](https://github.com/cartaud/readmeGenerator#-Tests-)
+- [Questions](https://github.com/cartaud/readmeGenerator#-Questions-)
+## Installation
+To install necessary dependencies, run the following command:
 ${data.install}
-${data.test}
+## Usage
 ${data.repo}
-${data.contribute}`, 
+## License
+This project is licensed under the ${data.licenses} license
+## Contributing
+${data.contribute}
+## Test
+${data.test}
+## Questions
+For additional information on the repo, visit my Github account ${data.username} or send any questions you have to ${data.email}. 
+`, 
 (err) =>
     err ? console.error(err) : console.log('README Generated!')
   );
