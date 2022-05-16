@@ -78,18 +78,18 @@ function generateMarkdown(data) {
   - [Contributing](https://github.com/cartaud/readmeGenerator#-Contributing-)
   - [Tests](https://github.com/cartaud/readmeGenerator#-Tests-)
   - [Questions](https://github.com/cartaud/readmeGenerator#-Questions-)
-  ## Installation
+  ### Installation
   To install necessary dependencies, run the following command:
-  ${data.install}
-  ## Usage
+  \`${data.install}\`
+  ### Usage
   ${data.repo}
-  ## License
+  ### License
   ${renderLicenseSection(data.license)}
-  ## Contributing
+  ### Contributing
   ${data.contribute}
-  ## Test
-  ${data.test}
-  ## Questions
+  ### Test
+  \`${data.test}\`
+  ### Questions
   For additional information on the repo, visit my Github account [here](https://github.com/${data.username} ) or send any questions you have to ${data.email}. 
   `);
 }
