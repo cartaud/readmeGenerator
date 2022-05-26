@@ -16,7 +16,7 @@
   Fork the repo and clone into your local to start using the files.
   Watch the following video for an example on how this program works 
 
-  [![Video Example of Program Functionality.](https://drive.google.com/file/d/1qGQoJsilbMQKma_57u2JvREiCPvenjC0/view?usp=sharing)](/utils/media/readmeGeneratorVideo.mov)
+  [![Video Example of Program Functionality.](/utils/media/thumbnail.png)](https://drive.google.com/file/d/1qGQoJsilbMQKma_57u2JvREiCPvenjC0/view?usp=sharing)
   ### License
   This project is licensed under the MIT license
   ### Contributing
